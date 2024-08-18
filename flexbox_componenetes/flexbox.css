@@ -1,0 +1,33 @@
+@import '/flexbox_componenetes/flex-order.css';
+@import '/flexbox_componenetes/display-flex.css';
+
+
+:root{
+    --darkColor:#04001e;
+    --lightColor:#dffbff;
+    --primaryColor:#DB086F;
+}
+
+body{
+background-color: var(--darkColor);
+color: var(--lightColor);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+a{
+    color: var(--lightColor);
+}
+.wrapper{
+    max-inline-size: 64rem;
+    margin: auto;
+}
+
+.box{
+    border: 5px dashed var(--primaryColor);
+    padding:1rem;
+    counter-increment:flex-items;
+}
+.box::after{
+    content:counter(flex-items);
+}

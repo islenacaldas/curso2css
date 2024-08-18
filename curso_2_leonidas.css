@@ -1,0 +1,13 @@
+.box{
+    padding: 1rem;
+    border: 5px pink dashed;
+    counter-increment: flex-items;
+    display: inline-flex   ;
+    block-size: 300px;
+}
+.box::after{
+    content: counter(flex-items)
+}
+.box>.box{
+    block-size: auto;
+}

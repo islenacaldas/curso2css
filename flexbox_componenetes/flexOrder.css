@@ -1,0 +1,15 @@
+.flexOrder{
+    display: flex;
+    gap: 5rem;
+} 
+
+.wrapper .flexOrder img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.flexOrder:nth-child(even){
+    border: 1px solid red;
+}
