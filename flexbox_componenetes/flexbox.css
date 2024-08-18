@@ -1,4 +1,5 @@
-@import '/flexbox_componenetes/flex-order.css';
+@import './flexDirection.css';
+@import '/flexbox_componenetes/flexOrder.css';
 @import '/flexbox_componenetes/display-flex.css';
 
 
