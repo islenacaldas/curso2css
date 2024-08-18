@@ -1,0 +1,22 @@
+/*scroll ohorizontal de mnera flexible
+.flexWrap{
+    display: flex;
+    overflow: auto;
+}
+*/
+/*cuando no caben en la misma linea de manera horizontal se van bajando */
+.flexWrap{
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+/*que la linea se intercambie de los elementos, es decir que de los 19 elementos el primero visible sea el #19 el ultimo visible sea el #1 de el html*/
+.flexWrap{
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
