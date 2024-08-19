@@ -20,3 +20,15 @@
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
+/*mezcla de direccion  y wrap en un sola propiedad es flex-flow */
+
+.flexWrap.flexWrap{
+    display: flex;
+    overflow: auto;
+    /*flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;*/
+
+    flex-flow: row-reverse wrap;
+}

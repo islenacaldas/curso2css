@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+    background  :purple;
+}
+
+.flex > * {
+   /* border: 1px solid red !important;*/
+    /*si quisiera que mis  elementos se agranden a la capacidad del contenedor seria la propiedad flex-grow: entre 0 y 1*/
+    /*flex-grow:2;*/
+    /*flex-basis: 100px;
+    padding: 1rem !important;*/
+    /* flex-shrink: ;*/
+    /* flex-basis: ;*/
+
+}
+.flex img{
+    inline-size: 400px;
+    flex-shrink: 0;
+}
+/*
+.flex > p{
+    flex-grow: 1;
+    border: 1px solid green !important;
+    flex-basis: 50px;
+}
+    */
+    .flex >div{
+        border: 1px solid red;
+        /*flex-grow: 1;   
+    flex-basis: 100%;*/
+    flex: 1;
+    /*esto lo que que hace por debajo es lo siguiente: 
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:0%
+    */
+    }
