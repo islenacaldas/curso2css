@@ -1,0 +1,67 @@
+/*crea espacios entre ellos pero no hacia los costados*/
+/*.justifyContent{
+    display: flex;
+    justify-content: space-between;
+}*/
+/* crea el mismo margen entre los elementos,  en los extremos tiene un espacio y en la mitad de los dos elementos es la sumatoria de los espacios de cada elemento */
+/*.justifyContent{
+    display: flex;
+    justify-content: space-around;
+}*/
+/* elementos alineados de manera igualitaria */
+/*.justifyContent{
+    display: flex;
+    justify-content: space-evenly;
+}*/
+
+.justifyContent{
+    display: flex;
+    justify-content: space-evenly; /*el espaciado es automatico para el espacio donde lo estoy usando*/
+    flex-wrap:wrap;
+    border: 1px solid red;
+    gap:2rem ;
+    /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
+}
+
+.justifyContent{
+    display: flex;
+   justify-content: flex-start;/*alinealo al inicio del eje principal*/
+    flex-wrap:wrap;
+    border: 1px solid red;
+    gap:2rem ;
+    /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
+}
+
+.justifyContent{
+    display: flex;
+   justify-content: flex-end;/*alinealo al final del eje principal*/
+    flex-wrap:wrap;
+    border: 1px solid red;
+    gap:2rem ;
+    /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
+}
+/*si expando mi contendor, se va a estirar el contenido*/
+.justifyContent{
+    display: flex;
+    block-size: 500px;/*se agranda el contendor*/
+    align-items: flex-start;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
+    border: 1px solid red;
+  
+}
+.justifyContent{
+    display: flex;
+    block-size: 500px;/*se agranda el contendor*/
+    border: 1px solid red;
+    flex-direction: column;/*cuando cambio mi direccion a columnas mi eje principal esta llendo hacia abajo*/
+    align-items: flex-start;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
+  
+}
+.justifyContent{
+    display: flex;
+    block-size: 500px;/*se agranda el contendor*/
+    border: 1px solid red;
+    justify-content: flex-end;
+    flex-direction: column;/*cuando cambio mi direccion a columnas mi eje principal esta llendo hacia abajo*/
+    align-items: flex-end;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
+  
+}
