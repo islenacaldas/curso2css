@@ -10,3 +10,8 @@
 .alignItems img:nth-child(odd){
     align-self: flex-end;
 }
+
+.alignItems img:nth-of-type(1){
+    align-self: center;
+    border-radius: 50%;
+}
