@@ -1,0 +1,12 @@
+.alignItems{
+    max-inline-size: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.alignItems img{
+    inline-size: 100px;
+}
+.alignItems img:nth-child(odd){
+    align-self: flex-end;
+}
