@@ -12,56 +12,92 @@
 /*.justifyContent{
     display: flex;
     justify-content: space-evenly;
-}*/
+}
 
 .justifyContent{
     display: flex;
     justify-content: space-evenly; /*el espaciado es automatico para el espacio donde lo estoy usando*/
-    flex-wrap:wrap;
+    /*flex-wrap:wrap;
     border: 1px solid red;
     gap:2rem ;
+}*/
     /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
-}
 
-.justifyContent{
+/*.justifyContent{
     display: flex;
    justify-content: flex-start;/*alinealo al inicio del eje principal*/
-    flex-wrap:wrap;
+    /*flex-wrap:wrap;
     border: 1px solid red;
     gap:2rem ;
-    /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
 }
+    /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
 
-.justifyContent{
+/*.justifyContent{
     display: flex;
    justify-content: flex-end;/*alinealo al final del eje principal*/
-    flex-wrap:wrap;
+    /*flex-wrap:wrap;
     border: 1px solid red;
     gap:2rem ;
+}
     /*gap piensa en todas las lineas, no dibuja un espacio si no hace falta*/
-}
+
 /*si expando mi contendor, se va a estirar el contenido*/
-.justifyContent{
+/*.justifyContent{
     display: flex;
     block-size: 500px;/*se agranda el contendor*/
-    align-items: flex-start;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
-    border: 1px solid red;
+    /*align-items: flex-start;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
+    /*border: 1px solid red;
   
-}
-.justifyContent{
+}*/
+/*.justifyContent{
     display: flex;
     block-size: 500px;/*se agranda el contendor*/
-    border: 1px solid red;
+  /*  border: 1px solid red;
     flex-direction: column;/*cuando cambio mi direccion a columnas mi eje principal esta llendo hacia abajo*/
-    align-items: flex-start;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
+    /*align-items: flex-start;}/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
   
-}
-.justifyContent{
+
+/*.justifyContent{
     display: flex;
-    block-size: 500px;/*se agranda el contendor*/
-    border: 1px solid red;
+    block-size: 1000px;/*se agranda el contendor*/
+  /*  border: 1px solid red;
     justify-content: flex-end;
     flex-direction: column;/*cuando cambio mi direccion a columnas mi eje principal esta llendo hacia abajo*/
-    align-items: flex-end;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al inicio del contenedor*/
-  
+    /*align-items: flex-end;/*se le agrega esto para que los elementos ocupen unicamente su espacio dentro del contenedor, en este caso van al final del contenedor*/
+ /* 
+}
+*/
+
+/*para estilar un solo elemnto de mi cajita, en este caso el primer elemento*/
+/*.justifyContent img:nth-of-type(1){
+    align-self: flex-start;/*alineati a ti mismo*/
+/*
+/*para estilar un solo elemnto de mi cajita, en este caso el segundo elemento*/
+/*.justifyContent img:nth-of-type(2){
+    align-self: center;/*alineati a ti mismo*/
+/*}*/
+
+/*creacion del header*/
+.justifyContent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.spaceBetween{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.spaceBetween ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.spaceBetween img{
+    height: 50px;
+    border-radius: 50%;
 }
