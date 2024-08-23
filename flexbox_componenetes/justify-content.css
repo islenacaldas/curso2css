@@ -98,6 +98,6 @@
 }
 
 .spaceBetween img{
-    height: 50px;
+    block-size: 100px;
     border-radius: 50%;
 }
